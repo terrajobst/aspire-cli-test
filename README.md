@@ -57,6 +57,12 @@ top of `Program.cs`). No measurable improvement.
 Normally I also have a third Aspire call for streaming the logs, which is
 disabled (`DISABLE_ASPIRE_LOGGING` at the top of `Program.cs`). 
 
+## Linux vs Windows
+
+I was hoping that this is primarily an issue on Windows, but it's not. I was
+able to reproduce a similar ratio of 10x slower when running in WSL. Not sure
+about bare-metal Linux.
+
 ## What do we do about it?
 
 There, there probably isn't much we can do about that because being about 10x
