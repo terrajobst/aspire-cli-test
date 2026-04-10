@@ -60,8 +60,8 @@ disabled (`DISABLE_ASPIRE_LOGGING` at the top of `Program.cs`).
 ## Linux vs Windows
 
 I was hoping that this is primarily an issue on Windows, but it's not. I was
-able to reproduce a similar ratio of 10x slower when running in WSL. Not sure
-about bare-metal Linux.
+able to reproduce a similar ratio of 10x slower when running in WSL (Arch) as
+well as Linux on physical machine (CentOS).
 
 ## What do we do about it?
 
