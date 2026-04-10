@@ -30,8 +30,6 @@ my-cli\bin\Release\net10.0\win-x64\publish\my-cli.exe up
 
 **This also takes about 10s**
 
-While the equivalent with the plain Aspire CLI:
-
 ## Aspire CLI
 
 The custom CLI invokes Aspire twice:
